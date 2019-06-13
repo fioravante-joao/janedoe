@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+  /* background-color: red; */
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  border: 1px solid #ccc; /* espessura estilo cor */
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  color: #555;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main.banner {
+  width: 100%;
+  height: 73vh;
+  background-image: url('../img/jane.jpg');
+  background-repeat: no-repeat; /* não repete imagem */
+  background-position: center; /* centraliza imagem */
+  background-size: cover; /* cobre todo elemento */
+}
+
+main.about {
+  text-align: center;
+}
+
+main.about img {
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+main.music,
+main.contact {
+  width: 800px;
+  margin: 0 auto;
+  /* background-color: gray; */
+}
+
+.centralizado {
+  text-align: center;
+}
+
+.centralizado ul {
+  display: inline-block;
+  margin: 0 auto; /* centralizar blocos */
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background-color: #ccc;
+  padding: 2px;
+}
+
+
+
+/*Etilo da page contact*/
+form {
+  margin: 30px 0;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  width: 400px;
+  max-width: 100%;
+  resize: none;
+}
+
+form button {
+  background-color: #555;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 10px 0;
+  border: 0;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase; 
+}
+
+.alert{
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.alert-success{
+  color: green;
+}
+
+.alert-danger{
+  color: red;
+}
